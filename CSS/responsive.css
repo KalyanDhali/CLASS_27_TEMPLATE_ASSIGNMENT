@@ -155,7 +155,7 @@
     }
 
     .about-left img {
-        height: 65vh;
+        height: 65vh !important;
         max-width: 100%;
     }
     .about-right {
