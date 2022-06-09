@@ -1,0 +1,297 @@
+/* DDefault CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header-section CSS Start */
+/* .full-width {
+    max-width: 1140px;
+    margin: auto;
+} */
+
+.header {
+    background-color: #22c3a3;
+    padding: 20px 0;
+}
+
+.header-left {
+    float: left;
+    margin-left: 18px;
+
+}
+
+.header-left h1 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.header-right {
+    float: right;
+
+}
+
+.header-right ul {
+    list-style: none;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #edeeee;
+    line-height: 34px;
+    font-size: 15px;
+}
+
+/* Header-section CSS End */
+
+
+/* Banner-section CSS Start */
+.banner {
+    background: url(https://i.ibb.co/wZtDYZP/header-bg01.jpg) no-repeat;
+    background-size: cover;
+    padding: 135px 0;
+    background-position: center 100%;
+}
+
+.banner-text {
+    margin-top: 61px;
+}
+
+.banner h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.banner p {
+    color: #d0f2ec;
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+
+.banner button {
+    color: #f3fdfa;
+    padding: 10px 28px;
+    background-color: #0dbf9b;
+    border: none;
+    border: 2px solid #dbf5f1;
+    border-radius: 5px;
+}
+
+.banner button a {
+    text-decoration: none;
+    color: #e2f7f3;
+    font-size: 19px;
+    font-weight: 200;
+
+}
+
+/* Banner-section CSS End */
+
+/* Service-section CSS Start */
+.service {
+    padding-top: 100px;
+    background-color: #fff;
+    border-bottom: 2px solid #0dbf9b;
+    
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.service p {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 18px;
+}
+.service-items {
+    width: 98%;
+    margin: auto;
+}
+.service-item {
+    float: left;
+    width: 18%;
+    padding: 120px 39px;
+    
+}
+
+.service-item span {
+    color: #0dbf9b;
+    font-size: 35px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #696969;
+}
+
+.service-item p {
+    margin-top: 10px;
+}
+
+/* service-section CSS End */
+
+/* About-Section CSS Strat */
+.about-section {
+
+    background-color: #ffffff;
+    padding-top: 60px;
+    margin-bottom: 70px;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+}
+
+.about-section p {
+    text-align: center;
+    color: #949494;
+}
+
+.about-left {
+    float: left;
+    width: 43%;
+    margin-top: 50px;
+}
+
+.about-left img {
+    max-width: 100%;
+}
+
+.about-right {
+    float: right;
+    width: 53%;
+    margin-top: 60px;
+}
+
+.about-right h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #646464;
+    padding-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.about-right p {
+    text-align: left;
+    color: #949494;
+    padding-bottom: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* About-Section CSS End */
+
+/* Footer CSS Strat */
+
+/* Contact-section CSS Start */
+.contact-section {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contact-section p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #7a7a7a;
+}
+
+.contact-details {
+    float: left;
+    width: 33.3%;
+    padding-top: 60px;
+
+}
+
+.contact-details span {
+    color: #0dbf9b;
+}
+
+.contact-details p {
+    max-width: 40%;
+    margin: auto;
+    color: #8b8b8b;
+    font-size: 16px;
+}
+
+/* Contact-section CSS End */
+
+/* Social-footer CSS Start */
+.footer {}
+
+.Social-footer {
+    background-color: #0dbf9b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Social-footer li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.Social-footer li a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* Social-footer CSS End */
+/* Text-Footer Start*/
+.text-footer {
+    background-color: #222222;
+}
+
+.text-footer p {
+    color: rgba(190, 190, 190, 0.61);
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Text-Footer End*/
+
+/* Footer CSS End */
